@@ -1,12 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+// import React from 'react';
+// import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import './study/Tutorial/Tutorial';
+// import './study/main-concepts/4.components-and-props';
+// import './study/main-concepts/5.state-and-lifecycle';
+// import './study/main-concepts/6.handling-events';
+// import './study/main-concepts/7.conditional-rendering';
+// import './study/main-concepts/8.lists-and-keys';
+// import './study/main-concepts/9.forms';
+// import './study/main-concepts/10.lifting-state-up';
+// import './study/main-concepts/11.think-in-react';
+import './study/Advanced-guides/2.code-splitting'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
