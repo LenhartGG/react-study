@@ -11,5 +11,5 @@ import './index.css';
 // import './study/main-concepts/9.forms';
 // import './study/main-concepts/10.lifting-state-up';
 // import './study/main-concepts/11.think-in-react';
-import './study/Advanced-guides/2.code-splitting'
-
+// import './study/Advanced-guides/code-splitting/2.code-splitting';
+import './study/Advanced-guides/index.js';
