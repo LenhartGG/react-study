@@ -11,6 +11,8 @@ import FancyButton from './forward-refs/FancyButton';
 import Table from './fragments/Table';
 import Glossary from './fragments/Glossary';
 
+import MouseTracker from './Render-Props/MouseTracker';
+
 class CreateButton extends React.Component{
     render(){
 
@@ -46,14 +48,16 @@ function MyComponents(){
     return(
         <div>
             <CreateButton />
-            {/* <CustomTextInput />
+            <CustomTextInput />
             <AutoFocusTextInput />
             <CustomTextInputFunction />
-            <CallbackRefs /> */}
+            <CallbackRefs />
             
             <FancyButton />
             <Table />
             <Glossary items={items} />
+            
+            <MouseTracker />
         </div>
     );
 }
